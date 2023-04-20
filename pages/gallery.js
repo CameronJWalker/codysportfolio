@@ -1,7 +1,11 @@
+import Head from "next/head"
+
 export default function gallery(){
     return(
         <main>
-            Gallery page
+            <Head> 
+                <title> Gallery </title>
+            </Head>
         </main>
     )
 }
