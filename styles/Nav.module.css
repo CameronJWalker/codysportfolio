@@ -1,0 +1,11 @@
+.container{
+    border-bottom: 2px solid black;
+    padding: 3vmax;
+}
+.name, .gallery, .contact{
+    text-decoration: none;
+    color: black;
+}
+.name {
+    font-size: 3em;
+}
