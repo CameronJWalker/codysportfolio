@@ -10,6 +10,7 @@ export default function Navbar() {
                 </Link>
                 <div className={Nav.links}>
                     <ul>
+                        <li><Link href="/" className={Nav.home}>Home</Link></li>
                         <li><Link href="/gallery" className={Nav.gallery}>Gallery</Link></li>
                         <li><Link href="/contact" className={Nav.contact}>Contact</Link></li>
                     </ul>
