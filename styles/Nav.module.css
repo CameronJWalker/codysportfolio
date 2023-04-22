@@ -1,11 +1,29 @@
-.container{
-    border-bottom: 2px solid black;
-    padding: 3vmax;
+.container {
+    border-bottom: 1.5px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.name, .gallery, .contact{
+.name, .gallery, .contact {
     text-decoration: none;
     color: black;
 }
 .name {
-    font-size: 3em;
+    font-size: 2rem;
+}
+.links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.links li {
+    list-style: none;
+}
+.gallery, .contact{
+    padding: 1rem;
+    display: block;
+}
+
+.links li:hover {
+    background-color:rgb(231, 228, 228);
 }
