@@ -12,7 +12,7 @@
 .name {
     font-size: 1.5rem;
 }
-.links ul{
+.links ul {
     margin: 0;
     padding: 0;
     display: flex;
@@ -20,7 +20,7 @@
 .links li {
     list-style: none;
 }
-.gallery, .contact, .home{
+.gallery, .contact, .home {
     padding: 1rem;
     display: block;
 }
@@ -29,7 +29,7 @@
     background-color:rgb(231, 228, 228);
 }
 
-.toggleButton{
+.toggleButton {
     position: absolute;
     top: .75rem;
     right: 1rem;
@@ -40,7 +40,7 @@
     height: 21px;
     top: 20px;
 }
-.toggleButton .bar{
+.toggleButton .bar {
     height: 3px;
     width: 100%;
     background-color: black;
@@ -57,21 +57,21 @@
     .name {
         font-size: 1.2rem;
     }
-    .container{
+    .container {
         flex-direction: column;
         align-items: flex-start;
     }
-    .links ul{
+    .links ul {
         flex-direction: column;
         width: 100;
     }
-    .links li{
+    .links li {
         text-align: center;
     }
-    .home, .gallery, .contact{
+    .home, .gallery, .contact {
         padding: .1rem;
     }
-    .links.active{
+    .links.active {
         display: flex;
     }
 }
