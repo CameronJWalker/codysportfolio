@@ -7,9 +7,10 @@
 .name, .gallery, .contact, .home {
     text-decoration: none;
     color: black;
+    margin: 1rem;
 }
 .name {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .links ul{
     margin: 0;
@@ -26,4 +27,51 @@
 
 .links li:hover {
     background-color:rgb(231, 228, 228);
+}
+
+.toggleButton{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    top: 20px;
+}
+.toggleButton .bar{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius:10px;
+}
+@media(max-width: 567px) {
+    .toggleButton {
+        display: flex;
+    }
+    .links {
+        display: none;
+        width: 100%
+    }
+    .name {
+        font-size: 1.2rem;
+    }
+    .container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .links ul{
+        flex-direction: column;
+        width: 100;
+    }
+    .links li{
+        text-align: center;
+    }
+    .home, .gallery, .contact{
+        padding: .1rem;
+    }
+    .links.active{
+        display: flex;
+    }
 }
