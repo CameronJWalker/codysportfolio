@@ -50,14 +50,19 @@
     .toggleButton {
         display: flex;
     }
+    .toggleButton:hover {
+        background-color:rgb(231, 228, 228);
+    }
     .links {
         display: none;
-        width: 100%
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
     .name {
         font-size: 1.2rem;
     }
-    .container {
+    .container{
         flex-direction: column;
         align-items: flex-start;
     }
@@ -71,7 +76,5 @@
     .home, .gallery, .contact {
         padding: .1rem;
     }
-    .links.active {
-        display: flex;
-    }
+
 }
