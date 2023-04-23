@@ -24,9 +24,8 @@
     padding: 1rem;
     display: block;
 }
-
-.links li:hover {
-    background-color:rgb(231, 228, 228);
+.links{
+    display: flex;
 }
 
 .toggleButton {
@@ -50,11 +49,7 @@
     .toggleButton {
         display: flex;
     }
-    .toggleButton:hover {
-        background-color:rgb(231, 228, 228);
-    }
     .links {
-        display: none;
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -75,6 +70,15 @@
     }
     .home, .gallery, .contact {
         padding: .1rem;
+        background-color: black;
+        color: white;
+        width: 8rem;
+        border-radius: 25px;
     }
-
+    .home:hover, .gallery:hover, .contact:hover{
+        background-color:rgb(68, 68, 68);
+    }
+    toggleButton .bar {
+        border: 1.5px solid black;
+    }
 }
