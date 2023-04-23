@@ -3,13 +3,6 @@ import Nav from "../styles/Nav.module.css"
 import { useState, useEffect } from "react"
 
 export default function Navbar() {
-    
-    // const [display, setDisplay] = useState({})
-    
-    // const handleClick = () => {
-    //     setDisplay({display: "flex"})
-    //     console.log(display)
-    // }
     const [display, setDisplay] = useState(true);
     const toggleButtonStyle = {
         display: display ? "flex" : "none"
