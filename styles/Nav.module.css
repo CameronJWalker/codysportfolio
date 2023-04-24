@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 50vw;
 }
 .name, .gallery, .contact, .home {
     text-decoration: none;
