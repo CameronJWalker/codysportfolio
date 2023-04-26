@@ -2,10 +2,10 @@ import Head from "next/head"
 
 export default function contact() {
     return(
-        <main>
+        <div>
             <Head> 
                 <title> Home </title>
             </Head>
-        </main>
+        </div>
     )
 }
