@@ -7,7 +7,7 @@ return (
     <Head> 
       <title> Home </title>
     </Head>
-    <div>Poof</div>
+    <div>Home</div>
   </div>
 )
 }

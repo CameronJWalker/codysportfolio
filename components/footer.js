@@ -11,17 +11,17 @@ export default function Footer() {
 
             {/* Contact Info: Email, Phone Number, Social Media Handles */}
             <div>
-                <p>Email</p>
-                <p>Phone Number</p>
-                <p>Any Social Media Handles</p>
+                <p>702 960 9714</p>
+                <p>codymeyer623@gmail.com</p>
+                <p>@cxdym.p</p>
             </div>
 
             {/* Site Map - I.e. List of all the pages on the website that they can click  */}
-            <div>
+            <div >
                 <ul>
-                    <li><Link href="/">Home</Link></li>
-                    <li><Link href="/gallery">Gallery</Link></li>
-                    <li><Link href="/contact">Contact</Link></li>
+                    <li><Link href="/" className={Foot.links}>Home</Link></li>
+                    <li><Link href="/gallery" className={Foot.links}>Gallery</Link></li>
+                    <li><Link href="/contact" className={Foot.links}>Contact</Link></li>
                 </ul>
             </div>
 
