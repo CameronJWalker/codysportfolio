@@ -1,3 +1,9 @@
+.test {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 5rem;
+}
 .container {
     border-bottom: 1.5px solid black;
     display: flex;
@@ -45,7 +51,7 @@
     background-color: black;
     border-radius:10px;
 }
-@media(max-width: 567px) {
+@media(max-width: 800px) {
     .toggleButton {
         display: flex;
     }

@@ -7,7 +7,9 @@ return (
     <Head> 
       <title> Home </title>
     </Head>
-    <div>Home</div>
+    <div className={Page.container}>
+      <h1>Home</h1>
+    </div>
   </div>
 )
 }
