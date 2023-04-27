@@ -5,9 +5,9 @@ export default function Footer() {
     return (
         <div className={Foot.container}>
             {/* The Legal Stuff goes here - I.e. Terms of Use, Privacy Policy, Copyright Notice */}
-            <div>
+            {/* <div>
                 <p>@Some Very Legal Stuff</p>
-            </div>
+            </div> */}
 
             {/* Contact Info: Email, Phone Number, Social Media Handles */}
             <div>
