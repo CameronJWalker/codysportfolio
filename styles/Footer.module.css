@@ -11,8 +11,11 @@
 
     position: absolute;
     bottom: 0;
+
     left: 0;
     width: 100%;
+    flex-shrink: 0;
+    height: 50px
 }
 .links{
     text-decoration: none;
@@ -20,6 +23,6 @@
 }
 @media(max-width: 567px){
     .container {
-        font-size: .5rem;
+        font-size: .6rem;
     }
 }
