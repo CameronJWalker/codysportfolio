@@ -13,8 +13,9 @@ export default function Navbar() {
     }
 
     return (
-        <main>
+        <div className={Nav.test}>
             <div className={Nav.container}>
+                {/* This link is a little redundant when you already have a home link */}
                 <Link href="/" className={Nav.name} > 
                     CODY MEYER PHOTOGRAPHY
                 </Link>
@@ -31,6 +32,6 @@ export default function Navbar() {
                         </ul>
                     </div> 
             </div>
-        </main>
+        </div>
     )
 }

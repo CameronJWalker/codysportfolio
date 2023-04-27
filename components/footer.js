@@ -11,9 +11,9 @@ export default function Footer() {
 
             {/* Contact Info: Email, Phone Number, Social Media Handles */}
             <div>
-                <p>702 960 9714</p>
-                <p>codymeyer623@gmail.com</p>
-                <p>@cxdym.p</p>
+                <p>Phone: 702 960 9714</p>
+                <p>Email: codymeyer623@gmail.com</p>
+                <p>Instagram: @cxdym.p</p>
             </div>
 
             {/* Site Map - I.e. List of all the pages on the website that they can click  */}
@@ -27,7 +27,7 @@ export default function Footer() {
 
             {/* Could Add Social Media Icons */}
             <div>
-                <p>Icons if you want</p>
+                <p>If you do add this use icons</p>
             </div>
         </div>
     )
