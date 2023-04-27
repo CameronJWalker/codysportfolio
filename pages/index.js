@@ -1,11 +1,10 @@
 import Head from 'next/head' 
-import Page from '../styles/Page.module.css'
 import PhotoGrid from '../components/photoGrid'
 import Photo from '../styles/Photo.module.css'
 
 export default function Home() {
 return (
-  <div>
+  <div className={Photo.container}>
     <Head> 
       <title> Home </title>
     </Head>

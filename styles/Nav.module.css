@@ -1,8 +1,8 @@
-.test {
+.center {
     display: flex;
     position: relative;
     justify-content: center;
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 .container {
     border-bottom: 1.5px solid black;
