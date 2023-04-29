@@ -4,7 +4,7 @@ export default function contact() {
     return(
         <div>
             <Head> 
-                <title> Home </title>
+                <title> Contact </title>
             </Head>
         </div>
     )

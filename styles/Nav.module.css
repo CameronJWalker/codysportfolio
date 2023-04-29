@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.name, .gallery, .contact, .home {
+.name, .gallery, .contact {
     text-decoration: none;
     color: black;
     margin: 1rem;
@@ -26,7 +26,7 @@
 .links li {
     list-style: none;
 }
-.gallery, .contact, .home {
+.gallery, .contact {
     padding: 1rem;
     display: block;
 }
@@ -50,6 +50,9 @@
     width: 100%;
     background-color: black;
     border-radius:10px;
+}
+.name:hover, .gallery:hover, .contact:hover{
+    color: rgb(140, 140, 140);
 }
 @media(max-width: 800px) {
     .toggleButton {
@@ -75,14 +78,14 @@
     .links li {
         text-align: center;
     }
-    .home, .gallery, .contact {
+    .gallery, .contact {
         padding: .1rem;
         background-color: black;
         color: white;
         width: 8rem;
         border-radius: 25px;
     }
-    .home:hover, .gallery:hover, .contact:hover{
+    .gallery:hover, .contact:hover{
         background-color:rgb(68, 68, 68);
     }
     toggleButton .bar {
