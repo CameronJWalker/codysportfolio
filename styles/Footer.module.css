@@ -19,9 +19,17 @@
 .links{
     text-decoration: none;
     color: black;
+    margin-left: 25px;
+}
+.instagram{
+    height: 3vh;
+    width: 1.5vw;
 }
 @media(max-width: 567px){
     .container {
         font-size: .6rem;
+    }
+    .instagram{
+        width: 8vw;
     }
 }

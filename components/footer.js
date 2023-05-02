@@ -9,12 +9,6 @@ export default function Footer() {
                 <p>@Some Very Legal Stuff</p>
             </div> */}
 
-            {/* Contact Info: Email, Phone Number, Social Media Handles */}
-            <div>
-                <p>Phone: 702 960 9714</p>
-                <p>Email: codymeyer623@gmail.com</p>
-                <p>Instagram: @cxdym.p</p>
-            </div>
 
             {/* Site Map - I.e. List of all the pages on the website that they can click  */}
             <div >
@@ -25,9 +19,15 @@ export default function Footer() {
                 </ul>
             </div>
 
+            {/* Contact Info: Email, Phone Number, Social Media Handles */}
+            <div>
+                <p>Phone: 702 960 9714</p>
+                <p>Email: codymeyer623@gmail.com</p>
+                <p>Instagram: @cxdym.p</p>
+            </div>
             {/* Could Add Social Media Icons */}
             <div>
-                <p>If you do add this use icons</p>
+                <img className={Foot.instagram} src="igicon.png" alt="instagram icon"/>
             </div>
         </div>
     )
