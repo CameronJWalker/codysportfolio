@@ -23,13 +23,13 @@
 }
 .instagram{
     height: 3vh;
-    width: 1.5vw;
+    width: 25px;
 }
 @media(max-width: 567px){
     .container {
         font-size: .6rem;
     }
     .instagram{
-        width: 8vw;
+        width: 6vw;
     }
 }
