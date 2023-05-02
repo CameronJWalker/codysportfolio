@@ -27,7 +27,9 @@ export default function Footer() {
             </div>
             {/* Could Add Social Media Icons */}
             <div>
-                <img className={Foot.instagram} src="igicon.png" alt="instagram icon"/>
+                <Link href="https://www.instagram.com/cxdym.p/" target="_blank">
+                    <img className={Foot.instagram} src="igicon.png" alt="instagram icon"/>
+                </Link>
             </div>
         </div>
     )
