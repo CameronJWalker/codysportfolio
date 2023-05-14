@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.grid{
+    display: grid;
+    grid-template: auto auto / repeat(2, 1fr);
+    row-gap: 100px;
+    column-gap: 100px;
+    margin: 50px;
+}
+.image{
+    position: relative;
+}
+.image img{
+    display: block;
+    width:25vw;
+    height: 50vh;
+}
+.image p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* add a semi-transparent background color to the text */
+    color: white;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+}
+@media(max-width: 800px) {
+    .grid{
+        grid-template: auto auto / repeat(1, 1fr);
+    }
+    .photo{
+        width: 75vw;
+        height: 25vh;
+    }
+}
