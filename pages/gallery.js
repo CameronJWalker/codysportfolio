@@ -1,9 +1,10 @@
 import Head from "next/head"
 import Gallery from "../styles/Gallery.module.css"
+import Link from "next/link"
 
 import SeniorExhib from "@/pages/SeniorExhib"
 import Nature from "@/pages/Nature"
-import City from "@/pages/City"
+import City from "@/pages/Cityscapes"
 import Nightscapes from "@/pages/Nightscapes"
 
 import images from '../images.json'
@@ -16,19 +17,27 @@ export default function gallery(){
             </Head>
             <div className={Gallery.grid}>
                 <div className={Gallery.image}>
-                    <img src={images.Eclipse.url}/>
+                    <Link href="/SeniorExhib">
+                        <img src={images.Eclipse.url}/>
+                    </Link>
                     <p>Senior Exhibition</p>
                 </div>
                 <div className={Gallery.image}>
-                    <img src={images.OceanBubbles.url}/>
+                    <Link href="/Nature">
+                        <img src={images.OceanBubbles.url}/>
+                    </Link>
                     <p>Nature</p>
                 </div>
                 <div className={Gallery.image}>
-                    <img src={images.Needle.url}/>
+                    <Link href="/Cityscapes">
+                        <img src={images.Needle.url}/>
+                    </Link>
                     <p>Cityscapes</p>
                 </div>
                 <div className={Gallery.image}>
-                    <img src={images.Smoke.url}/>
+                    <Link href="/Nightscapes">
+                        <img src={images.Smoke.url}/>
+                    </Link>
                     <p>Nightscapes</p>
                 </div>
             </div>
