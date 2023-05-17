@@ -11,6 +11,7 @@ export default function PhotoGrid(props) {
                     src={props.imageUrl}
                     className={Photo.box}
                     alt={props}
+                    
                 />
             </div>
     )
