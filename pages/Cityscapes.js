@@ -1,8 +1,9 @@
 import React from 'react'
+import Cityscapes from "../images/cityscapes.json"
 
 export default function City() {
   return (
-    <div>City</div>
+    <div>Cityscapes</div>
   )
 }
 

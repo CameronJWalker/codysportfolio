@@ -1,7 +1,7 @@
 import Head from 'next/head' 
 import PhotoGrid from '../components/photoGrid'
 import Photo from '../styles/Photo.module.css'
-import images from '../sqimages.json'
+import images from '../images/sqimages.json'
 
 export default function Home() {
 return (
