@@ -9,6 +9,16 @@
     height: 35vh;
     width: 225px;
 }
+.about h2 {
+    margin: 25px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 25px;
+}
+.about p {
+    margin: 15px;
+    text-indent: 25px;
+}
 @media(max-width: 567px) {
     .grid{
         grid-template: auto auto / repeat(1, 1fr);
