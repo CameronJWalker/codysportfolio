@@ -12,7 +12,7 @@ export default function about() {
                     <div className={About.about}>
                         <h2>Artist Statement</h2>
                         <p>
-                                In my work I use photography as a tool to challenge and interrupt 
+                            In my work I use photography as a tool to challenge and interrupt 
                             the cycle of the everyday. We are constantly surrounded by technology 
                             that enables endless distraction. The weight of this loop diminishes 
                             the aspects of life that are often taken for granted. Each day we constantly 
@@ -21,7 +21,7 @@ export default function about() {
                             efforts in life and taking a toll on our mental health.
                         </p>
                         <p>
-                                I want my art to invite the viewer to see their surroundings and environment in a new light. 
+                            I want my art to invite the viewer to see their surroundings and environment in a new light. 
                             I want them to recognize how hard it can be to break the endless cycle and feel encouraged in 
                             taking the first step. My photography is proof that small moments of peace can exist once you 
                             interrupt the loop. My practice has taught me to appreciate the process and experience while 
@@ -31,7 +31,7 @@ export default function about() {
                             their life has also made a difference in my own.
                         </p>
                         <p>
-                                Beautiful landscapes are often overlooked and underappreciated as nothing more than the backdrop to our 
+                            Landscapes are often overlooked and underappreciated as nothing more than the backdrop to our 
                             lives, especially in the west where we are used to our beautiful surroundings and don't really stop to look 
                             at it. We become passive to our surroundings while we are herded through each day of school, work, home. School,
                             work, home. The landscapes I have chosen have been my sense of quiet and my place to escape to. I share these 

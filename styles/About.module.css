@@ -12,12 +12,15 @@
 .about h2 {
     margin: 25px;
     text-align: center;
-    border-bottom: 1px solid black;
-    padding-bottom: 25px;
 }
 .about p {
     margin: 15px;
-    text-indent: 25px;
+    /* text-indent: none; */
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 @media(max-width: 567px) {
     .grid{
@@ -25,5 +28,8 @@
     }
     .box{
         width: 80%;
+    }
+    .about p {
+        width: 90%;
     }
 }
