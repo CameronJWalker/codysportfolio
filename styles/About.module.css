@@ -6,6 +6,7 @@
 }
 .box{
     background-color:red;
+    border: 3px black solid;
     height: 30rem;
     width: 30rem;
     margin-right: 2rem;
