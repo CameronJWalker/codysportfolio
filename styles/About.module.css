@@ -9,11 +9,27 @@
     height: 35vh;
     width: 225px;
 }
+.about h2 {
+    margin: 25px;
+    text-align: center;
+}
+.about p {
+    margin: 15px;
+    /* text-indent: none; */
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 @media(max-width: 567px) {
     .grid{
         grid-template: auto auto / repeat(1, 1fr);
     }
     .box{
         width: 80%;
+    }
+    .about p {
+        width: 90%;
     }
 }
