@@ -23,5 +23,5 @@ return (
       <PhotoGrid value="12"/>
     </div>
   </div>
-)
+) 
 }
