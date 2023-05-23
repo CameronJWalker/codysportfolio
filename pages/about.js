@@ -1,5 +1,5 @@
 import Head from "next/head"
-import About from "../styles/About.module.css"
+import AboutStyles from "../styles/About.module.css"
 
 export default function About() {
     return(
@@ -7,9 +7,9 @@ export default function About() {
             <Head> 
                 <title> About </title>
             </Head>
-            <div className={About.grid}>
-                <div className={About.box} />
-                    <div className={About.about}>
+            <div className={AboutStyles.grid}>
+                <div className={AboutStyles.box} />
+                    <div className={AboutStyles.about}>
                         <h2>Artist Statement</h2>
                         <p>
                             In my work I use photography as a tool to challenge and interrupt 
