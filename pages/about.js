@@ -1,7 +1,7 @@
 import Head from "next/head"
 import About from "../styles/About.module.css"
 
-export default function about() {
+export default function About() {
     return(
         <div>
             <Head> 

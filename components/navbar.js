@@ -25,8 +25,8 @@ export default function Navbar() {
                 </div>
                     <div className={Nav.links} ref={myNavRef}>
                         <ul>
-                            <li><Link href="/gallery" className={Nav.gallery}>Gallery</Link></li>
-                            <li><Link href="/about" className={Nav.contact}>About</Link></li>
+                            <li><Link href="/Gallery" className={Nav.gallery}>Gallery</Link></li>
+                            <li><Link href="/About" className={Nav.contact}>About</Link></li>
                         </ul>
                     </div> 
             </div>
