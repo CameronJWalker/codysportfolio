@@ -1,15 +1,13 @@
 import Head from "next/head"
 import GalleryStyles from "../styles/Gallery.module.css"
 import Link from "next/link"
-import images from "../images/sqimages.json"
 
 export default function Gallery(){
-
-
+    
     const Eclipse = 'https://codysportfoliobucket.s3.us-west-1.amazonaws.com/homepage/Eclipse.jpg'
-    const OceanBubbles = 'https://daiiuznptrjzvlsexpwp.supabase.co/storage/v1/object/public/images/images/homepage/OceanBubbles?t=2023-05-09T03%3A14%3A30.833Z'
-    const Needle = 'https://daiiuznptrjzvlsexpwp.supabase.co/storage/v1/object/public/images/images/homepage/Smoke?t=2023-05-09T03%3A14%3A17.502Z'
-    const Smoke = 'https://daiiuznptrjzvlsexpwp.supabase.co/storage/v1/object/public/images/images/homepage/Needle?t=2023-05-09T03%3A14%3A38.546Z'
+    const OceanBubbles = 'https://codysportfoliobucket.s3.us-west-1.amazonaws.com/homepage/OceanBubbles.jpg'
+    const FreedomTower = 'https://codysportfoliobucket.s3.us-west-1.amazonaws.com/homepage/FreedomTower.jpg'
+    const PineMountain = 'https://codysportfoliobucket.s3.us-west-1.amazonaws.com/homepage/PineMountain.jpg'
 
     return(
         <div className={GalleryStyles.container}>
@@ -31,13 +29,13 @@ export default function Gallery(){
                 </div>
                 <div className={GalleryStyles.image}>
                     <Link href="/Cityscapes">
-                        <img src={Needle}/>
+                        <img src={FreedomTower}/>
                     </Link>
                     <p>Cityscapes</p>
                 </div>
                 <div className={GalleryStyles.image}>
                     <Link href="/Nightscapes">
-                        <img src={Smoke}/>
+                        <img src={PineMountain}/>
                     </Link>
                     <p>Nightscapes</p>
                 </div>
