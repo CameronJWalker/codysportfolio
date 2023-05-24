@@ -11,6 +11,7 @@ html, body {
 
 body {
     overflow-y: scroll;
+    background-color: rgba(255, 243, 224, 0.767);
 }
 
 .pageWrap {
@@ -18,4 +19,4 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-/* Yoo This is a testing agian */
+/* another another test */

@@ -1,7 +1,7 @@
 import React from 'react'
-import Nightscapes from "../images/nightscapes.json"
+import NightScapesImgs from "../images/nightscapes.json"
 
-export default function Nightscapes() {
+export default function NightScapes() {
   return (
     <div>Nightscapes</div>
   )
