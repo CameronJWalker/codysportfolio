@@ -1,9 +1,9 @@
 import Head from "next/head"
-import Gallery from "../styles/Gallery.module.css"
+import GalleryStyles from "../styles/Gallery.module.css"
 import Link from "next/link"
 import images from "../images/sqimages.json"
 
-export default function gallery(){
+export default function Gallery(){
 
 
     const Eclipse = 'https://codysportfoliobucket.s3.us-west-1.amazonaws.com/homepage/Eclipse.jpg'
@@ -12,30 +12,30 @@ export default function gallery(){
     const Smoke = 'https://daiiuznptrjzvlsexpwp.supabase.co/storage/v1/object/public/images/images/homepage/Needle?t=2023-05-09T03%3A14%3A38.546Z'
 
     return(
-        <div className={Gallery.container}>
+        <div className={GalleryStyles.container}>
             <Head> 
                 <title> Gallery </title>
             </Head>
-            <div className={Gallery.grid}>
-                <div className={Gallery.image}>
+            <div className={GalleryStyles.grid}>
+                <div className={GalleryStyles.image}>
                     <Link href="/SeniorExhib">
                         <img src={Eclipse}/>
                     </Link>
                     <p>Senior Exhibition</p>
                 </div>
-                <div className={Gallery.image}>
+                <div className={GalleryStyles.image}>
                     <Link href="/Nature">
                         <img src={OceanBubbles}/>
                     </Link>
                     <p>Nature</p>
                 </div>
-                <div className={Gallery.image}>
+                <div className={GalleryStyles.image}>
                     <Link href="/Cityscapes">
                         <img src={Needle}/>
                     </Link>
                     <p>Cityscapes</p>
                 </div>
-                <div className={Gallery.image}>
+                <div className={GalleryStyles.image}>
                     <Link href="/Nightscapes">
                         <img src={Smoke}/>
                     </Link>

@@ -1,7 +1,7 @@
 import React from 'react'
-import Cityscapes from "../images/cityscapes.json"
+import CityScapesImgs from "../images/cityscapes.json"
 
-export default function City() {
+export default function CityScapes() {
   return (
     <div>Cityscapes</div>
   )

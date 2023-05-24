@@ -19,16 +19,22 @@
     height: 40vh;
 }
 .image p{
+    /* Position */
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* add a semi-transparent background color to the text */
-    color: white;
+
+    /* Sizing */
     padding: 10px;
+    padding-top: 80px;
     margin: 0;
     font-size: 18px;
     text-align: center;
+
+    /* Colors */
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    color: white;
 }
 
 @media(max-width: 800px) {
