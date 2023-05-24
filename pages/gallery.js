@@ -1,10 +1,12 @@
 import Head from "next/head"
 import Gallery from "../styles/Gallery.module.css"
 import Link from "next/link"
+import images from "../images/sqimages.json"
 
 export default function gallery(){
 
-    const Eclipse = 'https://daiiuznptrjzvlsexpwp.supabase.co/storage/v1/object/public/images/images/homepage/Eclipse.jpg?t=2023-05-09T03%3A13%3A45.793Z'
+
+    const Eclipse = 'https://codysportfoliobucket.s3.us-west-1.amazonaws.com/homepage/Eclipse.jpg'
     const OceanBubbles = 'https://daiiuznptrjzvlsexpwp.supabase.co/storage/v1/object/public/images/images/homepage/OceanBubbles?t=2023-05-09T03%3A14%3A30.833Z'
     const Needle = 'https://daiiuznptrjzvlsexpwp.supabase.co/storage/v1/object/public/images/images/homepage/Smoke?t=2023-05-09T03%3A14%3A17.502Z'
     const Smoke = 'https://daiiuznptrjzvlsexpwp.supabase.co/storage/v1/object/public/images/images/homepage/Needle?t=2023-05-09T03%3A14%3A38.546Z'
