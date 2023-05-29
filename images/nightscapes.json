@@ -2,41 +2,41 @@
     {
         "id": 1,
         "alt": "Big Dune",
-        "url": "https://daiiuznptrjzvlsexpwp.supabase.co/storage/v1/object/public/images/images/Nightscapes/BigDune?t=2023-05-18T03%3A42%3A19.435Z"
+        "url": "https://codysportfoliobucket.s3.us-west-1.amazonaws.com/nightscapes/BigDune.jpg"
     },
     {
         "id": 2,
         "alt": "Milky Way",
-        "url": "https://daiiuznptrjzvlsexpwp.supabase.co/storage/v1/object/public/images/images/Nightscapes/MilkyWay?t=2023-05-18T03%3A42%3A26.348Z"
+        "url": "https://codysportfoliobucket.s3.us-west-1.amazonaws.com/nightscapes/Milkyway%26Meteor.jpg"
     },
     {
         "id": 3,
         "alt": "Pine Mountain",
-        "url": "https://daiiuznptrjzvlsexpwp.supabase.co/storage/v1/object/public/images/images/Nightscapes/PineMountain?t=2023-05-18T03%3A42%3A47.401Z"
+        "url": "https://codysportfoliobucket.s3.us-west-1.amazonaws.com/nightscapes/PineMountain.jpg"
     },
     {
         "id": 4,
         "alt": "SCurve",
-        "url": "https://daiiuznptrjzvlsexpwp.supabase.co/storage/v1/object/public/images/images/Nightscapes/SCurve?t=2023-05-18T03%3A42%3A59.990Z"
+        "url": "https://codysportfoliobucket.s3.us-west-1.amazonaws.com/nightscapes/SCurve.jpg"
     },
     {
         "id": 5,
         "alt": "Salt Flats",
-        "url": "https://daiiuznptrjzvlsexpwp.supabase.co/storage/v1/object/public/images/images/Nightscapes/SaltFlats?t=2023-05-18T03%3A43%3A13.888Z"
+        "url": "https://codysportfoliobucket.s3.us-west-1.amazonaws.com/nightscapes/SaltFlats.jpg"
     },
     {
         "id": 6,
         "alt": "Snow Canyon",
-        "url": "https://daiiuznptrjzvlsexpwp.supabase.co/storage/v1/object/public/images/images/Nightscapes/SnowCanyon?t=2023-05-18T03%3A43%3A25.890Z"
+        "url": "https://codysportfoliobucket.s3.us-west-1.amazonaws.com/nightscapes/SnowCanyon.jpg"
     },
     {
         "id": 7,
         "alt": "Starry Night",
-        "url": "https://daiiuznptrjzvlsexpwp.supabase.co/storage/v1/object/public/images/images/Nightscapes/StarryNight?t=2023-05-18T03%3A43%3A38.966Z"
+        "url": "https://codysportfoliobucket.s3.us-west-1.amazonaws.com/nightscapes/StarryNight.jpg"
     },
     {
         "id": 8,
         "alt": "Surfers Paradise",
-        "url": "https://daiiuznptrjzvlsexpwp.supabase.co/storage/v1/object/public/images/images/Nightscapes/SurfersParadise?t=2023-05-18T03%3A43%3A51.837Z"
+        "url": "https://codysportfoliobucket.s3.us-west-1.amazonaws.com/nightscapes/SurfersParadise.jpg"
     }
 ]
