@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.grid{
+    display: grid;
+    grid-template: auto auto / repeat(3, 1fr);
+    row-gap: 50px;
+    column-gap: 50px;
+    margin: 25px;
+
+}
+.box {
+    width: 20vw;
+    
+}
+@media(max-width: 800px) {
+    .grid{
+        grid-template: auto auto / repeat(1, 1fr);
+    }
+    .box {
+        width: 75vw;
+    }
+}
