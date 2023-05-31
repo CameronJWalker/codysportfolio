@@ -4,14 +4,14 @@
     padding-top: 3rem;
 }
 .container {
-    border-bottom: 1.5px solid black;
+    border-bottom: 1.5px solid var(--text-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .name, .gallery, .contact {
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
     margin: 1rem;
 }
 .name {

@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    align-items: center;
 }
 .box{
     background-color:red;
@@ -14,11 +13,13 @@
 .about h2 {
     text-align: left;
     font-size: xx-large;
+    margin-bottom: 1rem;
 }
 .about p {
     font-size: larger;
     max-width: 60rem;
 }
+
 @media(max-width: 567px) {
     .grid{
         grid-template: auto auto / repeat(1, 1fr);

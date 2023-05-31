@@ -1,3 +1,16 @@
+:root {
+    --text-color: #000000;
+    --background-color: #FFFFFF;
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Styles for dark mode */
+    :root {
+        --text-color: #eeeeee;
+        --background-color: #222222;
+    }
+}
+
 * {
     font-family: sans-serif;
     box-sizing: border-box;
@@ -5,12 +18,10 @@
     padding: 0;
 }
 
-html, body {
-    box-sizing: border-box;
-}
-
 body {
-    overflow-y: scroll;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    transition: background-color 0.3s ease;
 }
 
 .pageWrap {
@@ -18,4 +29,3 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-/* another another test */
