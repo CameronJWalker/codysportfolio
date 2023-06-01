@@ -1,5 +1,6 @@
 import Head from "next/head"
 import AboutStyles from "../styles/About.module.css"
+import ContactForm from "../components/contactForm.js"
 
 export default function About() {
     return(
@@ -38,8 +39,11 @@ export default function About() {
                         captured moments in time in hopes others can escape too, even a few moments. I encourage others to look up from their 
                         phones and see the real world, to heal the numbness of technology, and to break the endless cycle.
                     </p>
+                    
                 </div>
+                
             </div>
+            <ContactForm />
         </div>
     )
 }
