@@ -1,19 +1,20 @@
 .container{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    place-items: center;
+    text-align: center;
     margin-top: 2rem;
 }
 .box{
+    margin-bottom: 50px;
     background-color:red;
     border: 3px black solid;
     height: 30rem;
     width: 30rem;
-    margin-right: 2rem;
 }
 .about h2 {
-    text-align: left;
     font-size: xx-large;
     margin-bottom: 1rem;
+    text-align: center;
 }
 .about p {
     font-size: larger;
@@ -45,13 +46,29 @@
   cursor: pointer;
 }
 @media(max-width: 567px) {
-    .grid{
-        grid-template: auto auto / repeat(1, 1fr);
-    }
     .box{
         width: 80%;
     }
+    .about h2 {
+      font-size: large;
+  }
+
+  .about p {
+      font-size: medium;
+      max-width: 90%;
+      margin-left: auto; /* Added to center-align the text */
+      margin-right: auto; /* Added to center-align the text */
+  }
+}
+@media (max-width: 768px) {
+    .about h2 {
+        font-size: medium;
+    }
+
     .about p {
-        width: 90%;
+        font-size: small;
+        max-width: 80%;
+        margin-left: auto; /* Added to center-align the text */
+        margin-right: auto; /* Added to center-align the text */
     }
 }

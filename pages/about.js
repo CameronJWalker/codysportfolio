@@ -10,6 +10,7 @@ export default function About() {
             </Head>
             <div className={AboutStyles.container}>
                 <div className={AboutStyles.box} />
+
                     <div className={AboutStyles.about}>
                         <h2>Artist Statement</h2>
                     <p>
