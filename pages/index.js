@@ -13,7 +13,7 @@ return (
     </Head>
     <div className={Photo.grid}>
       {imagesArray.map((image, index) => (
-          <PhotoGrid key={index} imageUrl={image.url} alt={image.alt}/>
+          <PhotoGrid key={index} imageUrl={image.url} alt={image.alt} loading="lazy"/>
         ))}
     </div>
   </div>

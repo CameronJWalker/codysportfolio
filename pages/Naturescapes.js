@@ -7,7 +7,7 @@ export default function Nature() {
     <div className={GalleryPhoto.container}>
         <div className={GalleryPhoto.grid}>
           {images.map((image, index) => (
-            <img src={image.url} key={index} className={GalleryPhoto.box}/>
+            <img src={image.url} key={index} className={GalleryPhoto.box} loading="lazy"/>
           ))}
         </div>
       </div>
