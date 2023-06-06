@@ -22,10 +22,10 @@ export default function Gallery(){
                     <p>Senior Exhibition</p>
                 </div>
                 <div className={GalleryStyles.image}>
-                    <Link href="/Nature">
+                    <Link href="/Naturescapes">
                         <img src={OceanBubbles}/>
                     </Link>
-                    <p>Nature</p>
+                    <p>Naturescapes</p>
                 </div>
                 <div className={GalleryStyles.image}>
                     <Link href="/Cityscapes">
