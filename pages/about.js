@@ -3,14 +3,16 @@ import AboutStyles from "../styles/About.module.css"
 import ContactForm from "../components/contactForm.js"
 
 export default function About() {
+
+    const Cody = "https://codysportfoliobucket.s3.us-west-1.amazonaws.com/cody.png"
+
     return(
         <div>
             <Head> 
                 <title> About </title>
             </Head>
             <div className={AboutStyles.container}>
-                <div className={AboutStyles.box} />
-
+                    <img className={AboutStyles.box} alt="Photo of cody meyer" src={Cody}/>
                     <div className={AboutStyles.about}>
                         <h2>Artist Statement</h2>
                     <p>
