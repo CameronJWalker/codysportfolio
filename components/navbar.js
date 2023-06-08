@@ -27,6 +27,7 @@ export default function Navbar() {
                         <ul>
                             <li><Link href="/Gallery" className={Nav.gallery}>Gallery</Link></li>
                             <li><Link href="/About" className={Nav.contact}>About</Link></li>
+                            <li><Link href="https://drive.google.com/file/d/1PooIoxK4V0Qx_nBynE3_o-_AsIohj9uy/view" className={Nav.contact}>Resume</Link></li>
                         </ul>
                     </div> 
             </div>
