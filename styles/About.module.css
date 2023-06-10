@@ -56,10 +56,6 @@
   margin: 10px;
 }
 @media(max-width: 567px) {
-    .box{
-        width: 80%;
-        height: 80%;
-    }
     .about h2 {
       font-size: large;
   }
