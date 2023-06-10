@@ -45,7 +45,7 @@ export default function About() {
                     
                 </div>
             </div>
-            <ContactForm />
+            {/* <ContactForm /> */}
         </div>
     )
 }
