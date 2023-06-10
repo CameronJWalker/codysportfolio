@@ -16,25 +16,25 @@ export default function Gallery(){
             </Head>
             <div className={GalleryStyles.grid}>
                 <div className={GalleryStyles.image}>
-                    <Link href="/seniorExhib">
+                    <Link href="/SeniorExhib">
                         <img src={Eclipse}/>
                     </Link>
                     <p>Senior Exhibition</p>
                 </div>
                 <div className={GalleryStyles.image}>
-                    <Link href="/naturescapes">
+                    <Link href="/Naturescapes">
                         <img src={OceanBubbles}/>
                     </Link>
                     <p>Naturescapes</p>
                 </div>
                 <div className={GalleryStyles.image}>
-                    <Link href="/cityscapes">
+                    <Link href="/Cityscapes">
                         <img src={FreedomTower}/>
                     </Link>
                     <p>Cityscapes</p>
                 </div>
                 <div className={GalleryStyles.image}>
-                    <Link href="/nightscapes">
+                    <Link href="/Nightscapes">
                         <img src={PineMountain}/>
                     </Link>
                     <p>Nightscapes</p>
