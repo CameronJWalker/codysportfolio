@@ -20,12 +20,6 @@ export default function Footer() {
                 </ul>
             </div>
 
-            {/* Contact Info: Email, Phone Number, Social Media Handles */}
-            <div>
-                <p>Phone: 702 960 9714</p>
-                <p>Email: codymeyer623@gmail.com</p>
-                <p>Instagram: @cxdym.p</p>
-            </div>
             {/* Could Add Social Media Icons */}
             <div className={Foot.instagram}>
                 <Link href="https://www.instagram.com/cxdym.p/" target="_blank">
