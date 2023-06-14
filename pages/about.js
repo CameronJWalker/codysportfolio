@@ -1,6 +1,6 @@
 import Head from "next/head"
 import AboutStyles from "../styles/About.module.css"
-import ContactForm from "../components/contactForm.js"
+// import ContactForm from "../components/contactForm.js"
 
 export default function About() {
 
@@ -43,6 +43,12 @@ export default function About() {
                         phones and see the real world, to heal the numbness of technology, and to break the endless cycle.
                     </p>
                     
+                </div>
+                <div className={AboutStyles.contact}>
+                    <h2>Contact</h2>
+                    <p>Instagram: @cxdym.p</p>
+                    <p>Email: codymeyer623@gmail.com</p>
+                    <p>Phone: 702 960 9714</p>
                 </div>
             </div>
             {/* <ContactForm /> */}

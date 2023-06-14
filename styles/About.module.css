@@ -55,6 +55,14 @@
   cursor: pointer;
   margin: 10px;
 }
+.contact h2{
+  font-size: xx-large;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.contact p {
+  margin-bottom: 20px;
+}
 @media(max-width: 567px) {
     .about h2 {
       font-size: large;
@@ -68,11 +76,11 @@
   }
 }
 @media (max-width: 768px) {
-    .about h2 {
+    .about h2, .contact h2 {
         font-size: medium;
     }
 
-    .about p {
+    .about p, .contact p {
         font-size: small;
         max-width: 80%;
         margin-left: auto; /* Added to center-align the text */
