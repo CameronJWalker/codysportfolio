@@ -16,7 +16,6 @@ export default function Footer() {
                     <li><Link href="/" className={Foot.links}>Home</Link></li>
                     <li><Link href="/Gallery" className={Foot.links}>Gallery</Link></li>
                     <li><Link href="/about" className={Foot.links}>About</Link></li>
-                    <li><Link href="/Contact" className={Foot.links}>Contact</Link></li>
                 </ul>
             </div>
 
